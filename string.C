@@ -1,7 +1,7 @@
 #include <stdio.h>
 using namespace std;
 
-size_t my_strlen(char *s)
+size_t my_strlen(constant char *s)
 {
    char *p = s;
 
