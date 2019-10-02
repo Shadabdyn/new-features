@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include<conio.h>
 #include<math.h>
+#include "fvCFD.H"
+##include "spline.H"
 using namespace std;
 
 size_t my_strlen(constant char *s)
@@ -16,14 +18,14 @@ size_t my_strlen(constant char *s)
 int main(void)
 {
    int i;
-   char *s[] = 
+   char *s[] =
    {
       "Git tutorials",
       "Tutorials Point"
    };
 
    for (i = 0; i < 2; ++i)
-      
+
    printf("string lenght of %s = %lu\n", s[i], my_strlen(s[i]));
 
    return 0;
@@ -44,10 +46,10 @@ int main(void)
 +
 int main(void)
 {
-   int i; 
+   int i;
    +
    char p1[32];
-   char *s[] = 
+   char *s[] =
    {
       "Git tutorials",
       "Tutorials Point"
