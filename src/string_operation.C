@@ -2,7 +2,11 @@
 #include<conio.h>
 #include<math.h>
 #include "fvCFD.H"
+<<<<<<< HEAD
 #include "spline.H"
+=======
+##include "spline.H"
+>>>>>>> c82835be131c84ee002676d68a0046024abf3a7a
 using namespace std;
 
 size_t my_strlen(constant char *s)
